@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Style for the button */
+button {
+  background-color: #61dafb; /* React blue */
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Add some space below the button */
+}
+
+button:hover {
+  background-color: #4fa8c5; /* Darker blue on hover */
+}
+
+/* Style for the greeting message */
+p {
+  color: #61dafb; /* React blue, or choose another color */
+  font-size: 20px;
+}
+
+/* Keep existing App-link style or remove if not used */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keep existing logo animation or remove if not used */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
